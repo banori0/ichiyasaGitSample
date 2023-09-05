@@ -35,11 +35,11 @@ This is forked from yasagit-2/ichiyasaGitSample for learning git
 - ローカルリポジトリの操作 p.72～
     - git init：　ローカルリポジトリ作成
     - git status：　状態表示
-    - git commit -am "コメント"：　ステージング＋コミット(記録)
-    - git checkout -b "name"：　ブランチ作成、切替
-    - git checkout master：　ブランチをmasterに切り替え
+    - git commit -am コメント：　ステージング ＋ コミット(記録)　コメント付
+    - git checkout -b name：　ブランチnameの作成、nameに切替
+    - git checkout master：　ブランチをmasterに切替
 - リモートリポジトリの操作 p.132～
-    - git clone "URL"：　ローカルリポジトリにコピー
-    - git push origin "name"：　リモートリポジトリに反映 (承認とマージはGitHub)
+    - git clone URL：　URLをローカルリポジトリにコピー
+    - git push origin name：　リモートリポジトリにブランチnameを反映 (承認とマージはGitHub)
     - git pull origin master：　リモート → ローカルに反映
     - git fetch origin：　リモート → ローカルに取得(反映なし)
