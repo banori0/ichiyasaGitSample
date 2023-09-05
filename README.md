@@ -38,6 +38,7 @@ This is forked from yasagit-2/ichiyasaGitSample for learning git
     - git commit -am コメント：　ステージング ＋ コミット(記録)　コメント付
     - git checkout -b name：　ブランチnameの作成、nameに切替
     - git checkout master：　ブランチをmasterに切替
+    - git branch -d name：　ブランチの削除　(リモートにpush,merge済)
 - リモートリポジトリの操作 p.132～
     - git clone URL：　URLをローカルリポジトリにコピー
     - git push origin name：　リモートリポジトリにブランチnameを反映 (承認とマージはGitHub)
